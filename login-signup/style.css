@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ededef;
+	font-family: 'Raleway', sans-serif;	
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center_container{
+	width: 800px;
+	height: 500px;
+}
+.col_left{
+	width: 50%;
+	height: 500px;
+	float: left;
+	background-color: white;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+.col_right{
+	width: 50%;
+	height: 500px;
+	float: left;
+	background-color: #44c3cc;
+	border-top-right-radius: 14px;
+	border-bottom-right-radius: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.col_left_heading{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 100px;
+}
+.social_icon{
+	width: 100%;
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+.social{
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	border:  1px solid #44c3cc;
+	border-radius: 50%;
+	margin: 14px 4px;
+	padding-top: 13px;
+}
+
+.social .fa{
+	font-size: 18px;
+}
+.signin_form{
+	width: 100%;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	padding: 0 50px;
+}
+.signin_form input{
+	width: 100%;
+	height: 40px;
+	margin: 7px 0;
+	background-color: #ededef;
+	border: none;
+	padding-left: 16px;
+}
+
+.forgot{
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.button_box{
+	width: 100%;
+	float: left;
+	text-align: center;
+    margin-top: 16px;
+}
+.submit{
+	background-color: #44c3cc;
+    padding: 12px 52px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid #559fa4;
+    border-radius: 30px;
+}
+
+.right_center{
+	width: 80%;
+	float: left;
+}
+.right_heading{
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+}
+.right_text{
+	font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.submit2{
+	background-color: #44c3cc;
+    padding: 12px 52px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+}
