@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+		<title>Background-Color responsive</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" contant="width=device-width, initial-scale=1.0">
+		
+		<style type="text/css">
+			*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+	
+.box{
+	width: 100%;
+	height:  100vh;
+	background-color: blue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+	color: white;
+}
+.desktop{
+	display: block;
+}
+.tablet{
+	display: none;
+}
+.mobile{
+	display: none;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:  501px){
+	.box{
+		width: 100%;
+		background-color: pink;
+	}
+	.desktop{
+		display: none;
+	}
+	.tablet{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width:  1000px){
+	.box{
+		width: 100%;
+		background-color: red;
+	}
+	.desktop{
+		display: none;
+	}
+	.tablet{
+		display: block;
+	}
+	.mobile{
+		display: none;
+	}
+}
+		</style>
+
+	</head>
+
+	<body>
+		<div class="box">
+			<h1>Hello, This is <span class="desktop">Desktop</span> <span class="tablet">Tablet</span> <span class="mobile">Mobile</span></h1>
+		</div>
+	</body>
+	</html>
+
+
+
+	
