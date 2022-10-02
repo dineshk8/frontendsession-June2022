@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>  
+	<head>
+		<title>CSS - Flexbox</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" contant="width=device-width, initial-scale=1.0">
+		<style type="text/css">
+			body{
+				width: 100%;
+				height: 100vh;
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			.container{
+				width: 100%;
+				height: 100vh;
+				background: purple;
+				display: flex;
+			}
+			.item{
+				background-color: orange;
+				width: 100px;
+				margin: 30px;
+				/*padding: 20px;*/
+				color: white;
+				font-size: 30px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="item">01</div>
+			<div class="item" style="align-self: flex-end;">02</div>
+			<div class="item">03</div>
+			<div class="item" style="align-self: center;">04</div>
+			<div class="item" style="align-self: flex-start;">05</div>
+		</div>
+
+
+	</body>
+</html>
